@@ -1,0 +1,35 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font: 400 16px/1.62 Georgia, "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", sans-serif;
+  font-family: "PT serif", 微軟正黑體, 微软雅黑, 华文细黑, Microsoft Yahei, Hiragino Sans GB, sans-serif;
+  color: #D0CCCC;
+  overflow: hidden;
+  text-shadow: 0px 0px 1px rgba(24, 22, 22, 0.35);
+  background-color: #000;
+}
+
+#id_mid_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+#id_mid_container .input_box {
+  margin-top: 50px;
+}
+
+#id_top_container {
+  text-align: center;
+  margin: 50px 0;
+  font: normal 14px/24px "MicroSoft YaHei";
+}
+
+/*# sourceMappingURL=index.css.map */
