@@ -281,7 +281,7 @@ $(document).ready(function() {
             $(".entrance").css("justify-content","center");
             $(".entrance").css("align-items","center");
         } else {
-            alert("no");
+            alert("密钥错误，请扫码获取或联系管理员...");
         }
     });
 });
