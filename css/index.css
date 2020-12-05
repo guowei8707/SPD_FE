@@ -65,15 +65,33 @@ body {
 #id_mid_container .input_box {
   margin-top: 50px;
 }
+#id_mid_container #id_input_form {
+  border-color: #000000;
+}
+#id_mid_container #id_input_button {
+  background: #49699C;
+  color: #ffffff;
+  border-color: #f1f1f1;
+}
 
 #id_bottom_container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   height: 30%;
   width: 100%;
   /*    background-color: red;*/
+}
+#id_bottom_container div {
+  margin: 0px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#id_bottom_container .entrance {
+  display: none;
 }
 #id_bottom_container img {
   width: 150px;

@@ -11,7 +11,9 @@
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/index.css">
-    <!--     <script src="./js/size.js" type="text/javascript" charset="utf-8"></script> -->
+    <script src="https://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+    <script src="./js/md5.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./js/authentication.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <body id="id_body">
@@ -200,9 +202,9 @@
         <div id="id_mid_container">
             <div class="col-lg-8 input_box">
                 <div class="input-group">
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" id="id_input_form">
                     <span class="input-group-btn">
-                        <button class="btn btn-default" type="button">
+                        <button class="btn btn-default" type="button" id="id_input_button">
                             提 交 密 钥
                         </button>
                     </span>
@@ -210,10 +212,18 @@
             </div><!-- /.col-lg-6 -->
         </div>
         <div id="id_bottom_container">
-            <img src="./img/16.png" alt="共享平台二维码" class="img-rounded">
-            <p></p>
-            <p>入口密钥已更新</p>
-            <p>（扫码获取）</p>
+            <div>
+                <img src="./img/weixin2.png" alt="微信二维码" class="img-rounded">
+                <p></p>
+                <p>入口密钥已更新</p>
+                <p>（扫码获取）</p>
+            </div>
+            <div class="entrance">
+                <img src="./img/16.png" alt="系统入口二维码" class="img-rounded">
+                <p></p>
+                <p>系统入口二维码</p>
+                <p>（扫码进入）</p>
+            </div>
         </div>
         <div id="id_footer">
             <div>
